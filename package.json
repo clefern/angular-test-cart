@@ -1,0 +1,47 @@
+{
+  "name": "devskiller-angular-shopping-cart",
+  "private": true,
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test:watch": "ng test --karma-config karma.conf.js --watch",
+    "test": "ng test --karma-config karma.conf.js"
+  },
+  "dependencies": {
+    "@angular/animations": "~12.1.4",
+    "@angular/common": "~12.1.4",
+    "@angular/compiler": "~12.1.4",
+    "@angular/core": "~12.1.4",
+    "@angular/forms": "~12.1.4",
+    "@angular/platform-browser": "~12.1.4",
+    "@angular/platform-browser-dynamic": "~12.1.4",
+    "@angular/router": "~12.1.4",
+    "angular-in-memory-web-api": "^0.10.0",
+    "bootstrap": "~4.4.1",
+    "rxjs": "~6.5.5",
+    "tslib": "^2.0.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~12.1.4",
+    "@angular/cli": "~12.1.4",
+    "@angular/compiler-cli": "~12.1.4",
+    "@angular/language-service": "~12.1.4",
+    "@types/bootstrap": "~4.3.2",
+    "@types/jasmine": "~3.6.0",
+    "@types/node": "^13.13.4",
+    "caniuse-lite": "^1.0.30001048",
+    "codelyzer": "^6.0.0",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "~6.3.4",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-cli": "~2.0.0",
+    "karma-jasmine": "~4.0.0",
+    "karma-junit-reporter": "~2.0.1",
+    "ts-node": "~8.9.1",
+    "tslint": "~6.1.0",
+    "typescript": "~4.3.5"
+  }
+}
